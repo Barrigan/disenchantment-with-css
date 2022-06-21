@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+}
+
+.container{
+    width: 80%;
+    max-width: 600px;
+    background-color: silver;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: brown;
+    transition-duration: .5s;
+}
+
+a:hover {
+    text-shadow: 0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black;
+    color: white;
+    transition-duration: .5s;
+}
+
+.main {
+    padding: 10px;
+}
+
+.main img{
+    width: 100%;
+}
+
+#home-h1 {
+    font-size: 3em;
+    color: saddlebrown;
+}
+
+h1 {
+    font-size: 3em;
+    color: maroon;
+}
